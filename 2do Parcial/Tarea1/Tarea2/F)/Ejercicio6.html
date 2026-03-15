@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <h1>Ejercicio 6</h1>
+    <form action="Ejercicio6.php" method="post">
+        <label for="monto">Monto en pesos (MXN):</label>
+        <input type="number" id="monto" name="monto" step="0.01" required><br><br>
+        <label for="tipoCambioUSD">Tipo de cambio USD:</label>
+        <input type="number" id="tipoCambioUSD" name="tipoCambioUSD" step="0.01" required><br><br>
+        <label for="tipoCambioEUR">Tipo de cambio EUR:</label>
+        <input type="number" id="tipoCambioEUR" name="tipoCambioEUR" step="0.01" required><br><br>
+        <input type="submit" value="Convertir">
+    </form>
+</body>
+</html>

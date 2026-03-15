@@ -7,10 +7,10 @@
 //d. Indica si hay nombres duplicados (Investiga el método
 //array_unique()).
 
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
+if (isset($_GET["nombres"])) {
     $nombres = $_GET["nombres"];
     $nombresArray = explode(",", $nombres);
-    
+
     echo "Nombres ingresados:<br>";
     foreach ($nombresArray as $nombre) {
         echo trim($nombre) . "<br>";

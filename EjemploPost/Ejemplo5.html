@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo 5</h1>
+    <form action="Ejemplo5.php" method="post">
+        <label>Nombre del alumno: </label>
+        <input type="text" name="nombre">
+        <hr>
+        <label>Materia: </label>
+        <select name="materia">
+            <option value="Matematicas">Matematicas</option>
+            <option value="Fisica">Fisica</option>
+            <option value="Quimica">Quimica</option>
+            <option value="Biologia">Biologia</option>
+            <option value="Historia">Historia</option>
+            <option value="Geografia">Geografia</option>
+        </select>
+        <br>
+        <label>Calificacion: </label>
+        <input type="number" name="numero" min="0" max="100" required>
+        <hr>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo2</title>
+</head>
+<body>
+    <h1>Ejemplo2</h1>
+    <hr>
+    <h2>Formulario de satisfaccion</h2>
+    <form action="Ejemplo2.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="satisfaccion">Nivel de satisfacción:</label>
+        <select id="satisfaccion" name="satisfaccion">
+            <option value="muy_satisfecho">Muy satisfecho</option>
+            <option value="satisfecho">Satisfecho</option>
+            <option value="neutral">Neutral</option>
+            <option value="insatisfecho">Insatisfecho</option>
+            <option value="muy_insatisfecho">Muy insatisfecho</option>
+        </select><br>
+        <label>Comentarios adicionales: </label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
