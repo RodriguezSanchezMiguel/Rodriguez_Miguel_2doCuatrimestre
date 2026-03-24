@@ -1,0 +1,1 @@
+- En el ejercicio 1, no muestras si es palíndromo o no, muestras un 1, que equivale a True o 0 que equivale a False, pero no un mensaje claro.
